@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		97BBEE191BDBDF1B00AE1782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BBEE181BDBDF1B00AE1782 /* main.m */; };
 		97BBEE1C1BDBDF1B00AE1782 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BBEE1B1BDBDF1B00AE1782 /* AppDelegate.m */; };
-		97BBEE1F1BDBDF1B00AE1782 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BBEE1E1BDBDF1B00AE1782 /* ViewController.m */; };
 		97BBEE221BDBDF1B00AE1782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97BBEE201BDBDF1B00AE1782 /* Main.storyboard */; };
 		97BBEE241BDBDF1B00AE1782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97BBEE231BDBDF1B00AE1782 /* Assets.xcassets */; };
 		97BBEE271BDBDF1B00AE1782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97BBEE251BDBDF1B00AE1782 /* LaunchScreen.storyboard */; };
+		97BBEE361BDBDF3D00AE1782 /* CLMenuViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BBEE311BDBDF3D00AE1782 /* CLMenuViewContoller.m */; settings = {ASSET_TAGS = (); }; };
+		97BBEE371BDBDF3D00AE1782 /* CLDeckMenuHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BBEE351BDBDF3D00AE1782 /* CLDeckMenuHeadView.m */; settings = {ASSET_TAGS = (); }; };
+		97BBEE391BDC077400AE1782 /* menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97BBEE381BDC077400AE1782 /* menu.plist */; settings = {ASSET_TAGS = (); }; };
+		97BBEE3B1BDC199200AE1782 /* CLSelectButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97BBEE3A1BDC199200AE1782 /* CLSelectButtonView.xib */; settings = {ASSET_TAGS = (); }; };
+		97BBEE3E1BDC1B6600AE1782 /* CLSelectButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BBEE3D1BDC1B6600AE1782 /* CLSelectButtonView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,18 @@
 		97BBEE181BDBDF1B00AE1782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97BBEE1A1BDBDF1B00AE1782 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		97BBEE1B1BDBDF1B00AE1782 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		97BBEE1D1BDBDF1B00AE1782 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		97BBEE1E1BDBDF1B00AE1782 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		97BBEE211BDBDF1B00AE1782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97BBEE231BDBDF1B00AE1782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97BBEE261BDBDF1B00AE1782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97BBEE281BDBDF1B00AE1782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97BBEE301BDBDF3D00AE1782 /* CLMenuViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMenuViewContoller.h; sourceTree = "<group>"; };
+		97BBEE311BDBDF3D00AE1782 /* CLMenuViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMenuViewContoller.m; sourceTree = "<group>"; };
+		97BBEE341BDBDF3D00AE1782 /* CLDeckMenuHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDeckMenuHeadView.h; sourceTree = "<group>"; };
+		97BBEE351BDBDF3D00AE1782 /* CLDeckMenuHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDeckMenuHeadView.m; sourceTree = "<group>"; };
+		97BBEE381BDC077400AE1782 /* menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = menu.plist; path = Classes/Controllers/menu.plist; sourceTree = "<group>"; };
+		97BBEE3A1BDC199200AE1782 /* CLSelectButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSelectButtonView.xib; sourceTree = "<group>"; };
+		97BBEE3C1BDC1B6600AE1782 /* CLSelectButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSelectButtonView.h; sourceTree = "<group>"; };
+		97BBEE3D1BDC1B6600AE1782 /* CLSelectButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSelectButtonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +68,9 @@
 		97BBEE161BDBDF1B00AE1782 /* Deck界面2 */ = {
 			isa = PBXGroup;
 			children = (
+				97BBEE2E1BDBDF3D00AE1782 /* Classes */,
 				97BBEE1A1BDBDF1B00AE1782 /* AppDelegate.h */,
 				97BBEE1B1BDBDF1B00AE1782 /* AppDelegate.m */,
-				97BBEE1D1BDBDF1B00AE1782 /* ViewController.h */,
-				97BBEE1E1BDBDF1B00AE1782 /* ViewController.m */,
 				97BBEE201BDBDF1B00AE1782 /* Main.storyboard */,
 				97BBEE231BDBDF1B00AE1782 /* Assets.xcassets */,
 				97BBEE251BDBDF1B00AE1782 /* LaunchScreen.storyboard */,
@@ -74,9 +83,48 @@
 		97BBEE171BDBDF1B00AE1782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				97BBEE381BDC077400AE1782 /* menu.plist */,
 				97BBEE181BDBDF1B00AE1782 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97BBEE2E1BDBDF3D00AE1782 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				97BBEE2F1BDBDF3D00AE1782 /* Controllers */,
+				97BBEE321BDBDF3D00AE1782 /* Models */,
+				97BBEE331BDBDF3D00AE1782 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		97BBEE2F1BDBDF3D00AE1782 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				97BBEE301BDBDF3D00AE1782 /* CLMenuViewContoller.h */,
+				97BBEE311BDBDF3D00AE1782 /* CLMenuViewContoller.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		97BBEE321BDBDF3D00AE1782 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		97BBEE331BDBDF3D00AE1782 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				97BBEE341BDBDF3D00AE1782 /* CLDeckMenuHeadView.h */,
+				97BBEE351BDBDF3D00AE1782 /* CLDeckMenuHeadView.m */,
+				97BBEE3A1BDC199200AE1782 /* CLSelectButtonView.xib */,
+				97BBEE3C1BDC1B6600AE1782 /* CLSelectButtonView.h */,
+				97BBEE3D1BDC1B6600AE1782 /* CLSelectButtonView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				97BBEE271BDBDF1B00AE1782 /* LaunchScreen.storyboard in Resources */,
+				97BBEE391BDC077400AE1782 /* menu.plist in Resources */,
 				97BBEE241BDBDF1B00AE1782 /* Assets.xcassets in Resources */,
+				97BBEE3B1BDC199200AE1782 /* CLSelectButtonView.xib in Resources */,
 				97BBEE221BDBDF1B00AE1782 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,9 +199,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97BBEE1F1BDBDF1B00AE1782 /* ViewController.m in Sources */,
+				97BBEE371BDBDF3D00AE1782 /* CLDeckMenuHeadView.m in Sources */,
+				97BBEE361BDBDF3D00AE1782 /* CLMenuViewContoller.m in Sources */,
 				97BBEE1C1BDBDF1B00AE1782 /* AppDelegate.m in Sources */,
 				97BBEE191BDBDF1B00AE1782 /* main.m in Sources */,
+				97BBEE3E1BDC1B6600AE1782 /* CLSelectButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
